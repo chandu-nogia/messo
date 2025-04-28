@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "109533575942",
+    "project_id": "lovexa-test",
+    "storage_bucket": "lovexa-test.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109533575942:android:4cbc183d7ecec03b76fc87",
+        "android_client_info": {
+          "package_name": "com.lovexa.shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109533575942-6p28i1l126pgkc24jb4tiea193n0fa43.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lovexa.shop",
+            "certificate_hash": "b3aec4cee690b78a95ade471614ebadb43b24469"
+          }
+        },
+        {
+          "client_id": "109533575942-m31fee8p7ev5dopajunaoih0eui1vgu6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1TSFf36TXIrw76D2XbdspdoxrvQesjC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109533575942-m31fee8p7ev5dopajunaoih0eui1vgu6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

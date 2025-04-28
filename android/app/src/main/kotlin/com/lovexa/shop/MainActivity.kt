@@ -1,0 +1,6 @@
+package com.lovexa.shop
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}

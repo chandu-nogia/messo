@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "ios/.symlinks/plugins/firebase_messaging/example/bundled-service-worker",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"label": "npm: build - ios/.symlinks/plugins/firebase_messaging/example/bundled-service-worker",
+			"detail": "esbuild firebase-messaging-sw.ts --outdir=../web --bundle --sourcemap --minify --format=esm"
+		}
+	]
+}
