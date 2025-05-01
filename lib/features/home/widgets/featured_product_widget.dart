@@ -244,19 +244,24 @@ class FeaturedProductController extends GetxController {
 
     while (_isAutoScrolling) {
       if (productList.isNotEmpty) {
-        int lengths = productList.length > 8 ? 8 : productList.length - 1;
-
-        if (currentIndex < lengths) {
-          currentIndex++;
-        } else {
+        int lengths = productList.length > 8 ? 8 : productList.length-1;
+  currentIndex++;
+        if (currentIndex == lengths) {
+           scrollController.jumpTo(0);
           currentIndex = 0;
-        }
 
-        scrollController.animateTo(
+        
+        } else {
+           scrollController.animateTo(
           currentIndex * 120.0,
           duration: const Duration(milliseconds: 500),
           curve: Curves.ease,
         );
+          
+         
+        }
+
+       
       }
 
       await Future.delayed(const Duration(seconds: 2));
@@ -328,21 +333,26 @@ class BestSellingProductController extends GetxController {
   void _startAutoScroll() async {
     _isAutoScrolling = true;
 
-    while (_isAutoScrolling) {
+      while (_isAutoScrolling) {
       if (productList.isNotEmpty) {
-        int lengths = productList.length > 8 ? 8 : productList.length - 1;
-
-        if (currentIndex < lengths) {
-          currentIndex++;
-        } else {
+        int lengths = productList.length > 8 ? 8 : productList.length-1;
+  currentIndex++;
+        if (currentIndex == lengths) {
+           scrollController.jumpTo(0);
           currentIndex = 0;
-        }
 
-        scrollController.animateTo(
+        
+        } else {
+           scrollController.animateTo(
           currentIndex * 120.0,
           duration: const Duration(milliseconds: 500),
           curve: Curves.ease,
         );
+          
+         
+        }
+
+       
       }
 
       await Future.delayed(const Duration(seconds: 2));
@@ -372,21 +382,26 @@ class FlashSellingProductController extends GetxController {
   void _startAutoScroll() async {
     _isAutoScrolling = true;
 
-    while (_isAutoScrolling) {
+       while (_isAutoScrolling) {
       if (productList.isNotEmpty) {
-        int lengths = productList.length > 8 ? 8 : productList.length - 1;
-
-        if (currentIndex < lengths) {
-          currentIndex++;
-        } else {
+        int lengths = productList.length > 8 ? 8 : productList.length-1;
+  currentIndex++;
+        if (currentIndex == lengths) {
+           scrollController.jumpTo(0);
           currentIndex = 0;
-        }
 
-        scrollController.animateTo(
+        
+        } else {
+           scrollController.animateTo(
           currentIndex * 120.0,
           duration: const Duration(milliseconds: 500),
           curve: Curves.ease,
         );
+          
+         
+        }
+
+       
       }
 
       await Future.delayed(const Duration(seconds: 2));

@@ -134,52 +134,40 @@ Future<void> main() async {
       ChangeNotifierProvider(create: (context) => di.sl<CategoryController>()),
       ChangeNotifierProvider(create: (context) => di.sl<ShopController>()),
       ChangeNotifierProvider(create: (context) => di.sl<FlashDealController>()),
-      ChangeNotifierProvider(
-          create: (context) => di.sl<FeaturedDealController>()),
+      ChangeNotifierProvider(create: (context) => di.sl<FeaturedDealController>()),
       ChangeNotifierProvider(create: (context) => di.sl<BrandController>()),
       ChangeNotifierProvider(create: (context) => di.sl<ProductController>()),
       ChangeNotifierProvider(create: (context) => di.sl<BannerController>()),
-      ChangeNotifierProvider(
-          create: (context) => di.sl<ProductDetailsController>()),
-      ChangeNotifierProvider(
-          create: (context) => di.sl<OnBoardingController>()),
+      ChangeNotifierProvider(create: (context) => di.sl<ProductDetailsController>()),
+      ChangeNotifierProvider(create: (context) => di.sl<OnBoardingController>()),
       ChangeNotifierProvider(create: (context) => di.sl<AuthController>()),
-      ChangeNotifierProvider(
-          create: (context) => di.sl<SearchProductController>()),
+      ChangeNotifierProvider(create: (context) => di.sl<SearchProductController>()),
       ChangeNotifierProvider(create: (context) => di.sl<CouponController>()),
       ChangeNotifierProvider(create: (context) => di.sl<ChatController>()),
       ChangeNotifierProvider(create: (context) => di.sl<OrderController>()),
-      ChangeNotifierProvider(
-          create: (context) => di.sl<NotificationController>()),
+      ChangeNotifierProvider(create: (context) => di.sl<NotificationController>()),
       ChangeNotifierProvider(create: (context) => di.sl<ProfileController>()),
       ChangeNotifierProvider(create: (context) => di.sl<WishListController>()),
       ChangeNotifierProvider(create: (context) => di.sl<SplashController>()),
       ChangeNotifierProvider(create: (context) => di.sl<CartController>()),
-      ChangeNotifierProvider(
-          create: (context) => di.sl<SupportTicketController>()),
-      ChangeNotifierProvider(
-          create: (context) => di.sl<LocalizationController>()),
+      ChangeNotifierProvider(create: (context) => di.sl<SupportTicketController>()),
+      ChangeNotifierProvider(create: (context) => di.sl<LocalizationController>()),
       ChangeNotifierProvider(create: (context) => di.sl<ThemeController>()),
-      ChangeNotifierProvider(
-          create: (context) => di.sl<GoogleSignInController>()),
-      ChangeNotifierProvider(
-          create: (context) => di.sl<FacebookLoginController>()),
+      ChangeNotifierProvider(create: (context) => di.sl<GoogleSignInController>()),
+      ChangeNotifierProvider(create: (context) => di.sl<FacebookLoginController>()),
       ChangeNotifierProvider(create: (context) => di.sl<AddressController>()),
       ChangeNotifierProvider(create: (context) => di.sl<WalletController>()),
       ChangeNotifierProvider(create: (context) => di.sl<CompareController>()),
       ChangeNotifierProvider(create: (context) => di.sl<CheckoutController>()),
-      ChangeNotifierProvider(
-          create: (context) => di.sl<LoyaltyPointController>()),
+      ChangeNotifierProvider(create: (context) => di.sl<LoyaltyPointController>()),
       ChangeNotifierProvider(create: (context) => di.sl<LocationController>()),
       ChangeNotifierProvider(create: (context) => di.sl<ContactUsController>()),
       ChangeNotifierProvider(create: (context) => di.sl<ShippingController>()),
-      ChangeNotifierProvider(
-          create: (context) => di.sl<OrderDetailsController>()),
+      ChangeNotifierProvider(create: (context) => di.sl<OrderDetailsController>()),
       ChangeNotifierProvider(create: (context) => di.sl<RefundController>()),
       ChangeNotifierProvider(create: (context) => di.sl<ReOrderController>()),
       ChangeNotifierProvider(create: (context) => di.sl<ReviewController>()),
-      ChangeNotifierProvider(
-          create: (context) => di.sl<SellerProductController>()),
+      ChangeNotifierProvider(create: (context) => di.sl<SellerProductController>()),
       ChangeNotifierProvider(create: (context) => di.sl<RestockController>()),
     ],
     child: MyApp(body: body),
