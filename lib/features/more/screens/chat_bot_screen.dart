@@ -57,15 +57,19 @@ class _ChatrBotScreenState extends State<ChatrBotScreen> {
             onPressed: _goBack,
           ),
         ),
-        backgroundColor: Provider.of<ThemeController>(context).darkTheme
+        backgroundColor:
+         Provider.of<ThemeController>(context).darkTheme
             ? Colors.black
-            : Colors.white,
+            :
+             Colors.white,
         body: Container(
           height: MediaQuery.of(context).size.height / 1,
           width: MediaQuery.of(context).size.width / 1,
-          color: Provider.of<ThemeController>(context).darkTheme
+          color: 
+          Provider.of<ThemeController>(context).darkTheme
               ? Colors.black
-              : Colors.white,
+              :
+               Colors.white,
           child: Stack(
             children: [
               InAppWebView(
