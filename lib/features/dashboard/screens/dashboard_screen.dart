@@ -23,10 +23,10 @@ import 'package:provider/provider.dart';
 // import '../../category/screens/category_screen.dart';
 import '../../../main.dart';
 import '../../../theme/controllers/theme_controller.dart';
-import '../../ai/ai.dart';
 import '../../brand/controllers/brand_controller.dart';
 import '../../category/controllers/category_controller.dart';
 import '../../category/screens/category_screen.dart';
+import '../../more/screens/chat_bot_screen.dart';
 import '../../shop/screens/shop_screen.dart';
 import 'controller.dart';
 
@@ -136,7 +136,7 @@ class DashBoardScreenState extends State<DashBoardScreen> {
           name: 'orders',
           icon: Images.shoppingImage,
           screen: const OrderScreen(isBacButtonExist: false)),
-      NavigationModel(name: 'AI', icon: Images.ai, screen: const AiScreen()),
+      NavigationModel(name: 'AI', icon: Images.ai, screen: const ChatrBotScreen()),
       // InboxScreen(isBackButtonExist: false)),
       // NavigationModel(
       //     name: 'more', icon: Images.moreImage, screen: const MoreScreen()),
